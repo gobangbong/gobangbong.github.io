@@ -221,6 +221,19 @@
             z-index: 1001;
         }
 
+	     	.modal2 {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            text-align: center;
+            z-index: 1001;
+        }
+
         .modal h2 {
             font-size: 24px;
             margin-bottom: 10px;
@@ -548,12 +561,8 @@ window.addEventListener("load", function(){
 
 	    <!-- 모달 배경 -->
     <div class="modal-overlay" id="modalOverlay">
-        <div class="modal">
-            <h2 id="modalAccountName">본인 인증</h2>
-            <p>생체 정보로 인증해주세요</p>
+        <div class="modal2">
         <img src="https://limpidityfile.sgp1.digitaloceanspaces.com/test_ap/fingerprint.png" alt="모달 이미지">
-		   <p>비밀번호로 인증</p>
-	 <button class="exit-button" id="exitButton">나가기</button>
         </div>
     </div>
 	
