@@ -541,12 +541,22 @@ window.addEventListener("load", function(){
         <div class="modal">
             <h2 id="modalAccountName">본인 인증</h2>
             <p>생체 정보로 인증해주세요</p>
-        <img src="https://limpidityfile.sgp1.digitaloceanspaces.com/test_ap/fingerprint.png" alt="모달 이미지">
 		   <p>비밀번호로 인증</p>
 	 <button class="exit-button" id="exitButton">나가기</button>
         </div>
     </div>
 
+	    <!-- 모달 배경 -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <h2 id="modalAccountName">본인 인증</h2>
+            <p>생체 정보로 인증해주세요</p>
+        <img src="https://limpidityfile.sgp1.digitaloceanspaces.com/test_ap/fingerprint.png" alt="모달 이미지">
+		   <p>비밀번호로 인증</p>
+	 <button class="exit-button" id="exitButton">나가기</button>
+        </div>
+    </div>
+	
     <script>
         // 요소 선택
         const modalOverlay = document.getElementById('modalOverlay');
